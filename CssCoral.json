@@ -1,0 +1,123 @@
+<style>
+    body {
+        background-image: url(/wall-3671612_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @font-face {
+        font-family: "RobotoL";    
+        src: url(/node-red/fonts/Roboto-Light.ttf);
+    }
+    @font-face {
+        font-family: "RobotoM";    
+        src: url(/node-red/fonts/Roboto-Medium.ttf);
+    }
+    p{
+        font-family:"RobotoL";
+    }
+    .nr-dashboard-theme .nr-dashboard-template{ /* tutte le card create dal template*/
+        font-family: 'RobotoL';
+        background-color:white !important;
+    }
+    .nr-dashboard-template p, .nr-dashboard-template h1, .nr-dashboard-template h2, .nr-dashboard-template h3, .nr-dashboard-template h4{
+        background-color:white !important ;
+        color:black !important;
+    }
+    body.nr-dashboard-theme md-content md-card{ /*tutte le card normali*/
+        border-radius: 14px !important;
+        box-shadow: 2px 2px 4px black !important;
+    }
+    .nr-dashboard-theme{/*(Fondo) bordo esterno alle card*/
+    }
+    .nr-dashboard-theme md-content{ /*tutte le schede*/
+        background-color:transparent !important;
+    }
+    .md-toolbar-tools{/*toolbar*/
+        background-color: white !important;
+        border-bottom: 1px solid gray;
+        color:black !important;
+    }
+    .nr-dashboard-theme ui-card-panel{/* fondo delle card*/
+        background-color:transparent !important;
+        border:none !important;
+    }
+    .nr-dashboard-theme .nr-dashboard-numeric .value{
+        background-color: transparent !important;
+        color:black;
+    }
+    .nr-dashboard-theme .nr-dashboard-switch md-switch.md-checked .md-thumb{
+        background-color:coral !important;
+    }
+    .nr-dashboard-theme .nr-dashboard-button .md-button{
+        background-color:coral !important;
+        border-radius:14px !important;
+    }
+    .nr-dashboard-theme .nr-dashboard-template{ /*fondo template nelle card*/
+    }
+    .nr-dashboard-theme .nr-dashboard-gauge text{
+        color:white !important;
+    }
+    .nr-dashboard-theme .nr-dashboard-slider .md-sign{
+        background-color:coral !important;
+    }
+    .nr-dashboard-theme ui-card-panel{ /*pannelli di tutte le card*/
+    }
+    .nr-dashboard-theme .nr-dashboard-gauge-titlel{
+        font-size:20px;
+    }
+    circle{ /* disegni svg */
+        fill:coral !important;
+    }
+    path{ /* disegni svg */
+    }
+    svg text{
+        fill:black !important;
+    }
+    .nr-dashboard-cardtitle{/*Titoli Scheda*/
+        font-family:"RobotoR";
+    }
+    .nr-dashboard-cardpanel{ /*fondo schede*/
+    }
+    .nr-dashboard-cardpanel > p{ /*titoli pannelli di tutte le schede*/
+        font-family: "RobotoR";
+        color: olive !important;
+        font-size: 22px;    
+        text-decoration: underline;
+    }
+    .nr-dashboard-switch{ /* Switch */
+    }
+    .nr-dashboard-switch p{ /* Switch Testo*/
+    }
+    .nr-dashboard-button .md-button{ /* Button */
+    }
+    .nr-dashboard-text p{
+    }
+    .nr-dashboard-text font{
+    }
+    .nr-dashboard-gauge-title{
+    }
+    .md-slider .md-track{
+        background-color:coral;
+    }
+    .card{
+    }
+    .puls{
+        font-family: "DSM";
+        background-color: white !important;
+        border: 1px solid gray !important;
+        border-radius: 14px !important;
+        color:black !important;
+    }
+    .gradi{
+        color: black!important;
+    }
+    .card_orario{
+    }
+    .tab_meteo{
+    }
+    .nr-dashboard-button i{
+        color:white !important;
+    }
+    .fa:before {
+    }
+</style>
